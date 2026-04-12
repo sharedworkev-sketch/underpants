@@ -10,7 +10,7 @@ export function CatalogSection() {
             <h2 className="font-headline text-4xl font-black uppercase tracking-tighter text-slate-900 md:text-5xl">
               Готовые решения
             </h2>
-            <p className="mt-4 text-sm font-bold uppercase tracking-[0.25em] text-slate-500">
+            <p className="mt-4 text-xs font-bold uppercase tracking-[0.25em] text-slate-500">
               Полная размерная сетка: 46-68
             </p>
           </div>
