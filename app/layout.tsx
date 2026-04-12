@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MONOLITH | Комплект из 5 пар премиального белья",
+  title: "EURO PLUS | Комплект из 5 пар премиального белья",
 };
 
 export default function RootLayout({

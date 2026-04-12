@@ -59,8 +59,8 @@ export function HeroSection() {
             НАБОР ИЗ 5 ПАР <br /> <span className="text-primary">СО СКИДКОЙ 60%</span>
           </h1>
           <p className="font-body max-w-lg text-xl leading-relaxed text-secondary">
-            Забудьте о покупках белья на годы. Набор из 5 премиальных боксеров EURO PLUS из
-            анатомического хлопка.
+            Забудьте о покупках белья на годы. Набор из 5 премиальных семейных трусов EURO PLUS из
+            анатомического хлопка. Доступны все популярные размеры от 46 до 68.
           </p>
           <div className="inline-flex w-full justify-center items-center gap-4 border-l-4 border-primary bg-white/50 p-6 py-4 backdrop-blur-sm min-w-80">
             <div className="flex flex-col items-center">

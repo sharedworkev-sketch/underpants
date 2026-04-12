@@ -1,4 +1,4 @@
-﻿export function CatalogSection() {
+export function CatalogSection() {
   return (
     <section className="bg-white py-32" id="catalog">
       <div className="container mx-auto px-8">
@@ -10,6 +10,9 @@
             <h2 className="font-headline text-4xl font-black uppercase tracking-tighter text-slate-900 md:text-5xl">
               Готовые решения
             </h2>
+            <p className="mt-4 text-sm font-bold uppercase tracking-[0.25em] text-slate-500">
+              Полная размерная сетка: 46-68
+            </p>
           </div>
           <div className="text-right">
             <p className="mb-2 text-xs font-bold uppercase tracking-widest text-slate-500">
@@ -30,7 +33,6 @@
               <div className="absolute top-4 left-4 bg-error px-3 py-1 text-[11px] font-black uppercase text-white">
                 АКЦИЯ: 5 ПАР
               </div>
-
             </div>
             <div className="mb-6 flex items-start justify-between">
               <div>
@@ -38,13 +40,19 @@
                 <p className="text-sm font-bold uppercase tracking-widest text-secondary">
                   Black Edition
                 </p>
+                <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-500">
+                  Размеры 46-68
+                </p>
               </div>
               <div className="text-right">
                 <p className="text-sm text-slate-400 line-through">100,00 BYN</p>
                 <p className="font-headline text-2xl font-black text-primary">49,90 BYN</p>
               </div>
             </div>
-            <a href="#order" className="block text-center font-headline w-full bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95">
+            <a
+              className="block w-full text-center font-headline bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95"
+              href="#order"
+            >
               Заказать
             </a>
           </div>
@@ -66,13 +74,19 @@
                 <p className="text-sm font-bold uppercase tracking-widest text-secondary">
                   Grey &amp; Black Mix
                 </p>
+                <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-500">
+                  Размеры 46-68
+                </p>
               </div>
               <div className="text-right">
                 <p className="text-sm text-slate-400 line-through">125,00 BYN</p>
                 <p className="font-headline text-2xl font-black text-primary">49,90 BYN</p>
               </div>
             </div>
-            <a href="#order" className="block text-center font-headline w-full bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95">
+            <a
+              className="block w-full text-center font-headline bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95"
+              href="#order"
+            >
               Заказать
             </a>
           </div>
@@ -94,13 +108,19 @@
                 <p className="text-sm font-bold uppercase tracking-widest text-secondary">
                   Limited
                 </p>
+                <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-500">
+                  Размеры 46-68
+                </p>
               </div>
               <div className="text-right">
                 <p className="text-sm text-slate-400 line-through">150,00 BYN</p>
                 <p className="font-headline text-2xl font-black text-primary">49,90 BYN</p>
               </div>
             </div>
-            <a href="#order" className="block text-center font-headline w-full bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95">
+            <a
+              className="block w-full text-center font-headline bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95"
+              href="#order"
+            >
               Заказать
             </a>
           </div>
@@ -109,4 +129,3 @@
     </section>
   );
 }
-

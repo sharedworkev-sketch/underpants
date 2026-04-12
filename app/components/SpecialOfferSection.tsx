@@ -1,4 +1,4 @@
-﻿export function SpecialOfferSection() {
+export function SpecialOfferSection() {
   return (
     <section className="relative overflow-hidden bg-slate-900 py-24 text-white">
       <div className="absolute top-0 right-0 h-64 w-64 translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/20 blur-3xl"></div>
@@ -10,6 +10,9 @@
         <p className="font-body mb-10 text-2xl text-slate-400">
           Ваша выгода:{" "}
           <span className="font-black text-white">100 BYN + Бесплатная доставка</span>
+        </p>
+        <p className="mb-10 text-sm font-black uppercase tracking-[0.3em] text-slate-300">
+          Размеры в наличии: 46-68
         </p>
         <div className="flex flex-col items-center gap-6">
           <a
@@ -26,4 +29,3 @@
     </section>
   );
 }
-

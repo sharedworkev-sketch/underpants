@@ -10,8 +10,11 @@ export function OrderSection() {
               Заказать набор
             </h2>
             <p className="mb-8 font-medium leading-relaxed text-slate-500">
-              Оставьте заявку сейчас, и мы закрепим за вами цену со скидкой 60% и
-              бесплатную доставку.
+              Оставьте заявку сейчас, и мы закрепим за вами цену со скидкой 60% и бесплатную
+              доставку.
+            </p>
+            <p className="mb-6 text-sm font-black uppercase tracking-[0.25em] text-slate-700">
+              Доступные размеры: 46-68
             </p>
             <div className="mb-8 border-l-4 border-error bg-error/10 p-4">
               <p className="text-xs font-black uppercase text-error">Внимание!</p>
