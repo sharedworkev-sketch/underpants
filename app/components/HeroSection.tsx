@@ -93,7 +93,7 @@ export function HeroSection() {
               alt=""
               className="h-full w-full object-cover"
               data-alt="Fit man wearing premium black boxers"
-              src="/hero_photo.png"
+              src="/bl1.png"
             />
             <div className="absolute -right-6 -bottom-6 hidden bg-slate-900 p-8 text-white shadow-2xl md:block">
               <p className="font-headline text-5xl font-black text-primary">5/5</p>

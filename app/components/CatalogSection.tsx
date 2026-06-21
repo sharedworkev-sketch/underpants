@@ -28,7 +28,7 @@ export function CatalogSection() {
                 alt=""
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 data-alt="Stack of 5 black premium boxer briefs"
-                src="/cat_1.png"
+                src="/gr1.png"
               />
               <div className="absolute top-4 left-4 bg-error px-3 py-1 text-[11px] font-black uppercase text-white">
                 АКЦИЯ: 5 ШТУК
@@ -62,7 +62,7 @@ export function CatalogSection() {
                 alt=""
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 data-alt="Mixed collection of 5 premium trunks"
-                src="/cat_2.png"
+                src="/bl1.png"
               />
               <div className="absolute top-4 left-4 bg-error px-3 py-1 text-[11px] font-black uppercase text-white">
                 ВЫБОР ПОКУПАТЕЛЕЙ
@@ -96,7 +96,7 @@ export function CatalogSection() {
                 alt=""
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 data-alt="5 performance navy blue briefs"
-                src="/cat_3.png"
+                src="/gr2.png"
               />
               <div className="absolute top-4 left-4 bg-primary px-3 py-1 text-[11px] font-black uppercase text-white">
                 ЛИМИТИРОВАННАЯ СЕРИЯ
