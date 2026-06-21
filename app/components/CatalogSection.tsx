@@ -5,7 +5,7 @@ export function CatalogSection() {
         <div className="mb-20 flex flex-col items-end justify-between gap-8 md:flex-row">
           <div>
             <span className="font-label mb-4 block text-xs font-bold uppercase tracking-[0.3em] text-primary">
-              Наборы из 5 пар
+              Наборы из 5 штук
             </span>
             <h2 className="font-headline text-4xl font-black uppercase tracking-tighter text-slate-900 md:text-5xl">
               Готовые решения
@@ -31,7 +31,7 @@ export function CatalogSection() {
                 src="/cat_1.png"
               />
               <div className="absolute top-4 left-4 bg-error px-3 py-1 text-[11px] font-black uppercase text-white">
-                АКЦИЯ: 5 ПАР
+                АКЦИЯ: 5 ШТУК
               </div>
             </div>
             <div className="mb-6 flex items-start justify-between">

@@ -56,10 +56,10 @@ export function HeroSection() {
             СУПЕР-АКЦИЯ: 5 ПО ЦЕНЕ 2
           </div>
           <h1 className="font-headline text-5xl leading-tight font-black tracking-tighter text-slate-900 md:text-7xl">
-            НАБОР ИЗ 5 ПАР <br /> <span className="text-primary">СО СКИДКОЙ 60%</span>
+            НАБОР ИЗ 5 ШТУК<br /> <span className="text-primary">СО СКИДКОЙ 60%</span>
           </h1>
           <p className="font-body max-w-lg text-xl leading-relaxed text-secondary">
-            Забудьте о покупках белья на годы. Набор из 5 премиальных семейных трусов EURO PLUS из
+            Забудьте о покупках белья на годы. Набор из 5 премиальных боксеров EURO PLUS из
             анатомического хлопка. Доступны все популярные размеры от 46 до 68.
           </p>
           <div className="inline-flex w-full justify-center items-center gap-4 border-l-4 border-primary bg-white/50 p-6 py-4 backdrop-blur-sm min-w-80">
@@ -83,7 +83,7 @@ export function HeroSection() {
               className="font-headline bg-primary px-10 py-5 text-center text-lg font-black uppercase tracking-tighter text-on-primary shadow-[0_10px_30px_rgba(234,88,12,0.3)] transition-all hover:translate-y-[-2px] hover:bg-orange-700 active:scale-95"
               href="#catalog"
             >
-              Заказать набор из 5 пар
+              Заказать набор из 5 штук
             </a>
           </div>
         </div>

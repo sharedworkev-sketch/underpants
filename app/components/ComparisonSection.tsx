@@ -11,14 +11,14 @@
               <tr className="bg-slate-900 text-white">
                 <th className="font-headline p-6 text-sm uppercase hidden">Преимущества набора</th>
                 <th className="font-headline bg-primary p-6 text-center text-sm uppercase">
-                  UERO PLUS (5 ПАР)
+                  UERO PLUS (5 ШТУК)
                 </th>
                 <th className="font-headline p-6 text-center text-sm uppercase">ДРУГИЕ БРЕНДЫ</th>
               </tr>
             </thead>
             <tbody className="font-medium text-slate-900">
               <tr className="border-b border-slate-100">
-                <td className="p-6 hidden">Цена за 1 пару</td>
+                <td className="p-6 hidden">Цена за 1 штуку</td>
                 <td className="p-6 text-center font-black text-primary">10 BYN (Выгодно)</td>
                 <td className="p-6 text-center text-slate-400">от 25 BYN</td>
               </tr>

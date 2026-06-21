@@ -4,7 +4,7 @@ export function SpecialOfferSection() {
       <div className="absolute top-0 right-0 h-64 w-64 translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/20 blur-3xl"></div>
       <div className="container relative z-10 mx-auto px-8 text-center">
         <h2 className="font-headline mb-6 text-4xl font-black uppercase tracking-tighter md:text-7xl">
-          5 ПАР ЗА 49,90 BYN{" "}
+          5 ШТУК ЗА 49,90 BYN{" "}
           <span className="text-primary block italic md:ml-4 md:inline">ВМЕСТО 150,00 BYN</span>
         </h2>
         <p className="font-body mb-10 text-2xl text-slate-400">
