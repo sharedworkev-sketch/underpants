@@ -21,7 +21,7 @@ export function CatalogSection() {
             <p className="font-headline text-4xl font-black text-error">ВСЕГО 8 НАБОРОВ</p>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-12 md:grid-cols-2">
           <div className="group relative">
             <div className="relative mb-8 aspect-[3/4] overflow-hidden bg-slate-100">
               <img
@@ -36,7 +36,7 @@ export function CatalogSection() {
             </div>
             <div className="mb-6 flex items-start justify-between">
               <div>
-                <h3 className="font-headline text-2xl font-black uppercase">Классика (5 шт)</h3>
+                <h3 className="font-headline text-2xl font-black uppercase">Боксеры (5 шт)</h3>
                 <p className="text-sm font-bold uppercase tracking-widest text-secondary">
                   Black Edition
                 </p>
@@ -61,8 +61,8 @@ export function CatalogSection() {
               <img
                 alt=""
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                data-alt="Mixed collection of 5 premium trunks"
-                src="/bl1.png"
+                data-alt="Stack of 5 classic family briefs"
+                src="/cat_2.png"
               />
               <div className="absolute top-4 left-4 bg-error px-3 py-1 text-[11px] font-black uppercase text-white">
                 ВЫБОР ПОКУПАТЕЛЕЙ
@@ -70,50 +70,16 @@ export function CatalogSection() {
             </div>
             <div className="mb-6 flex items-start justify-between">
               <div>
-                <h3 className="font-headline text-2xl font-black uppercase">Микс (5 шт)</h3>
+                <h3 className="font-headline text-2xl font-black uppercase">Семейные (5 шт)</h3>
                 <p className="text-sm font-bold uppercase tracking-widest text-secondary">
-                  Grey &amp; Black Mix
+                  Comfort Fit
                 </p>
                 <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-500">
                   Размеры 46-68
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-sm text-slate-400 line-through">125,00 BYN</p>
-                <p className="font-headline text-2xl font-black text-primary">49,90 BYN</p>
-              </div>
-            </div>
-            <a
-              className="block w-full text-center font-headline bg-slate-900 py-5 font-bold uppercase tracking-tighter text-white transition-colors hover:bg-primary active:scale-95"
-              href="#order"
-            >
-              Заказать
-            </a>
-          </div>
-          <div className="group relative">
-            <div className="relative mb-8 aspect-[3/4] overflow-hidden bg-slate-100">
-              <img
-                alt=""
-                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                data-alt="5 performance navy blue briefs"
-                src="/gr2.png"
-              />
-              <div className="absolute top-4 left-4 bg-primary px-3 py-1 text-[11px] font-black uppercase text-white">
-                ЛИМИТИРОВАННАЯ СЕРИЯ
-              </div>
-            </div>
-            <div className="mb-6 flex items-start justify-between">
-              <div>
-                <h3 className="font-headline text-2xl font-black uppercase">Лимит (5 шт)</h3>
-                <p className="text-sm font-bold uppercase tracking-widest text-secondary">
-                  Limited
-                </p>
-                <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-500">
-                  Размеры 46-68
-                </p>
-              </div>
-              <div className="text-right">
-                <p className="text-sm text-slate-400 line-through">150,00 BYN</p>
+                <p className="text-sm text-slate-400 line-through">100,00 BYN</p>
                 <p className="font-headline text-2xl font-black text-primary">49,90 BYN</p>
               </div>
             </div>

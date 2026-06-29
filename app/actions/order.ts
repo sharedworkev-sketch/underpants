@@ -18,6 +18,7 @@ export async function submitOrder(
 ): Promise<OrderFormState> {
   const name = getFieldValue(formData, "name");
   const phone = getFieldValue(formData, "phone");
+  const productType = getFieldValue(formData, "productType") || "Боксеры";
   const source = getFieldValue(formData, "source") || "OrderSection";
 
   if (name.length < 2) {
@@ -38,6 +39,7 @@ export async function submitOrder(
     await appendOrderToSheet({
       name,
       phone,
+      productType,
       source,
     });
 

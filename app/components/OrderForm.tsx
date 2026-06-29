@@ -71,6 +71,24 @@ export function OrderForm() {
           type="tel"
         />
       </div>
+      <div>
+        <label
+          className="mb-2 block text-[10px] font-black uppercase tracking-widest text-slate-500"
+          htmlFor="order-product-type"
+        >
+          Тип трусов
+        </label>
+        <select
+          className="w-full border-0 border-b-2 border-slate-200 bg-slate-50 px-2 py-4 transition-colors focus:border-primary focus:ring-0"
+          defaultValue="Боксеры"
+          id="order-product-type"
+          name="productType"
+          required
+        >
+          <option value="Боксеры">Боксеры</option>
+          <option value="Семейные трусы">Семейные трусы</option>
+        </select>
+      </div>
       <SubmitButton />
       <p
         aria-live="polite"

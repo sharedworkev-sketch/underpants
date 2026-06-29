@@ -3,6 +3,7 @@ import { google } from "googleapis";
 type OrderRow = {
   name: string;
   phone: string;
+  productType: string;
   source: string;
 };
 
@@ -55,7 +56,7 @@ export async function appendOrderToSheet(order: OrderRow) {
     valueInputOption: "USER_ENTERED",
     insertDataOption: "INSERT_ROWS",
     requestBody: {
-      values: [[new Date().toISOString(), order.name, order.phone]],
+      values: [[new Date().toISOString(), order.name, order.phone, order.productType]],
     },
   });
 }
